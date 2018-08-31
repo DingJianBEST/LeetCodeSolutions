@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +11,8 @@ namespace TwoSum
     {
         static void Main(string[] args)
         {
-            int[] nums = new int[] { 2,5,5,11 };
-            int target = 10;
+            int[] nums = new int[] { 0, 0, 3, 4 };
+            int target = 0;
 
             var result = TwoSum(nums, target);
 
@@ -20,20 +21,26 @@ namespace TwoSum
             Console.ReadKey();
         }
 
-        public static int[] TwoSum(int[] nums, int target)
+        public static int[] TwoSum(int[] numbers, int target)
         {
-            for (int i = 0; i < nums.Length; i++)
+
+            //由于数组是有序的，采取两端逼近的办法解决
+
+            int min = 0;
+
+            int max = numbers.Length - 1;
+
+            while (true)
             {
-                for (int j = i + 1; j < nums.Length ; j++)
+                if (numbers[min] + numbers[max] == target)
                 {
-                    if (nums[i] + nums[j] == target)
-                        return new int[] { i, j };
-
-                    
+                    return new int[] { min + 1, max + 1 };
                 }
+                if (numbers[min] + numbers[max] > target)
+                    max--;
+                else
+                    min++;
             }
-
-            return new int[] { 0, 0 };
         }
     }
 

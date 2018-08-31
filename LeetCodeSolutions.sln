@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{3BD211EB-EBB7-4503-83F9-BBAF85B0F032}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome Number", "Palindrome Number\Palindrome Number.csproj", "{712F9BEA-EE69-4FDA-A081-E958180D0738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jewels and Stones", "Jewels and Stones\Jewels and Stones.csproj", "{14AD065B-A705-4A25-92FD-6F35A1B7D1E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3BD211EB-EBB7-4503-83F9-BBAF85B0F032}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BD211EB-EBB7-4503-83F9-BBAF85B0F032}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BD211EB-EBB7-4503-83F9-BBAF85B0F032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712F9BEA-EE69-4FDA-A081-E958180D0738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712F9BEA-EE69-4FDA-A081-E958180D0738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712F9BEA-EE69-4FDA-A081-E958180D0738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712F9BEA-EE69-4FDA-A081-E958180D0738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14AD065B-A705-4A25-92FD-6F35A1B7D1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14AD065B-A705-4A25-92FD-6F35A1B7D1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14AD065B-A705-4A25-92FD-6F35A1B7D1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14AD065B-A705-4A25-92FD-6F35A1B7D1E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
