@@ -4,21 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Jewels_and_Stones
+namespace LeetCodeSolutions
 {
-    class Program
+    public class Jewels_and_Stones
     {
-        static void Main(string[] args)
-        {
-            string J = "z";
-            string S = "ZZ";
-
-            Console.WriteLine(NumJewelsInStones(J, S));
-            Console.ReadKey();
-            
-
-        }
-
         public static int NumJewelsInStones(string J, string S)
         {
             int num = 0;

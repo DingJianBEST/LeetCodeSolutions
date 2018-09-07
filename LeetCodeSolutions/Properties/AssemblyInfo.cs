@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("TwoSum")]
+[assembly: AssemblyTitle("LeetCodeSolutions")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TwoSum")]
+[assembly: AssemblyProduct("LeetCodeSolutions")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("3bd211eb-ebb7-4503-83f9-bbaf85b0f032")]
+[assembly: Guid("de9c807c-ff19-4aa1-9236-d06462b36b5d")]
 
 // 程序集的版本信息由下列四个值组成: 
 //
