@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="54-SpiralOrder.cs" />
     <Compile Include="DominantIndex.cs" />
     <Compile Include="FindDiagonalOrder.cs" />
     <Compile Include="FindMinInSortedArray.cs" />
