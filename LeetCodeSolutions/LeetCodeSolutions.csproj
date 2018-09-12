@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="54-SpiralOrder.cs" />
     <Compile Include="622-MyCircularQueue.cs" />
+    <Compile Include="200-NumberOfIslands.cs" />
     <Compile Include="DominantIndex.cs" />
     <Compile Include="FindDiagonalOrder.cs" />
     <Compile Include="FindMinInSortedArray.cs" />
