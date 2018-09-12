@@ -10,13 +10,16 @@ namespace LeetCodeSolutions
     {
         public static void Main()
         {
-            char[,] chas = { { '1','1','0','0','0'},
-                             { '1','1','0','0','0'},
-                             { '0','0','1','0','0'},
-                             {'0','0','0','1','1' }
-                           };
+            _115_MinStack stack = new _115_MinStack();
 
-            _200_NumberOfIslands.NumIslands(chas);
+            stack.Push(0);
+            stack.Push(1);
+            stack.Push(0);
+            Console.WriteLine(stack.GetMin());
+            stack.Pop();
+            Console.WriteLine(stack.GetMin());
+            Console.Read();
+
         }
     }
 }
