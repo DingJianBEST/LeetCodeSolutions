@@ -10,16 +10,12 @@ namespace LeetCodeSolutions
     {
         public static void Main()
         {
-            _115_MinStack stack = new _115_MinStack();
+            _20_IsValidbracket stack = new _20_IsValidbracket();
 
-            stack.Push(0);
-            stack.Push(1);
-            stack.Push(0);
-            Console.WriteLine(stack.GetMin());
-            stack.Pop();
-            Console.WriteLine(stack.GetMin());
+            string s = "()";
+            string s1 = "({([])})";
+            Console.WriteLine(stack.IsValid(s1));
             Console.Read();
-
         }
     }
 }
