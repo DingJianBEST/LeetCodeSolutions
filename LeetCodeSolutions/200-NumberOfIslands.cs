@@ -23,7 +23,7 @@ namespace LeetCodeSolutions
                     if (grid[i, j] == '1')
                     {
                         res++;
-                        DFS(i, j, grid);
+                        BFS(i, j, grid);
                     }
                 }
             }
@@ -31,18 +31,19 @@ namespace LeetCodeSolutions
             return res;
         }
 
-        public static void DFS(int i, int j, char[,] grid)
+
+        public static void BFS(int i, int j, char[,] grid)
         {
             grid[i, j] = '0';
 
             if (i > 0 && grid[i - 1, j] == '1')
-                DFS(i - 1, j, grid);
+                BFS(i - 1, j, grid);
             if (j > 0 && grid[i, j - 1] == '1')
-                DFS(i, j - 1, grid);
+                BFS(i, j - 1, grid);
             if (i < m - 1 && grid[i + 1, j] == '1')
-                DFS(i + 1, j, grid);
+                BFS(i + 1, j, grid);
             if (j < n - 1 && grid[i, j + 1] == '1')
-                DFS(i, j + 1, grid);
+                BFS(i, j + 1, grid);
         }
     }
 }
