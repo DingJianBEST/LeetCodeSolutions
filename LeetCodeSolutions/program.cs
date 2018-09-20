@@ -10,12 +10,9 @@ namespace LeetCodeSolutions
     {
         public static void Main()
         {
-            _20_IsValidbracket stack = new _20_IsValidbracket();
-
-            string s = "()";
-            string s1 = "({([])})";
-            Console.WriteLine(stack.IsValid(s1));
-            Console.Read();
+            _739_dailytemperature t = new _739_dailytemperature();
+            int[] n = new int[] { 89, 62, 70, 58, 47, 47, 46, 76, 100, 70 };
+            var num = t.DailyTemperatures(n);
         }
     }
 }
